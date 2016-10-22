@@ -1,0 +1,70 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+/*Контент*/
+.content {
+    margin: 0 0 0 0;
+}
+/*Шапка*/
+.header {
+    width: 1500px;
+    height: 700px;
+    background-color: #abeafa;
+}
+.logo {
+    margin-left: 234px;
+    margin-top: 24px;
+    float: left;
+}
+/*Ссылки в соцсетях*/
+.social {
+    display: inline;
+    float: right;
+    margin-right: 229px;
+    margin-top: 50px;
+}
+.social a {
+    color: white;
+    padding: 4px 4px 4px 4px;
+}
+/*Блок предложения покупки в голове*/
+.header_buynow {
+    float: right;
+    width: 313px;
+    height: 169px;
+    margin-right: 274px;
+    margin-top: 108px;
+    clear: both;
+}
+.buynow_h {
+    font: 900 48px / 34px Raleway; /*TODO ? НЕДОСТАТОЧНО ЖИРНЫЙ*/
+    color: #fff51f;
+}
+.buynow_p {
+    font: 400 18px / 24px Raleway;
+    color: #fff51f;
+}
+/*Блок приветсвия*/
+.header_welcome {
+    position: absolute; /*TODO ИЗБАВИТЬСЯ ОТ АБСОЛЮТА*/
+    width: 270px;
+    height: 300px;
+    background: #fff51f;
+    margin-left: 165px;
+    margin-top: 336px;
+}
+.welcome_h {
+    position: relative;
+    margin-left: 25px;
+    margin-top: 82px;
+    text-transform: uppercase;
+    font: 700 30px / 30px Raleway;
+}
+.welcome_p {
+    position: relative;
+    margin-left: 22px;
+    margin-top: 24px;
+    font: 700 18px / 14px Raleway;
+    font-style: italic;
+}
