@@ -4,7 +4,7 @@
 }
 /*Контент*/
 .content {
-    margin: 0 0 0 0;
+    margin: 150px 150px 150px 150px;
 }
 /*Шапка*/
 .header {
@@ -67,4 +67,107 @@
     margin-top: 24px;
     font: 700 18px / 14px Raleway;
     font-style: italic;
+}
+/*Меню*/
+.menu {
+    margin-left: 165px;
+    margin-top: 545px;
+    float: left;
+}
+.menu_h {
+    background-color: #333333;
+    width: 270px;
+    height: 66px;
+}
+.menu_h_text {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    float: left;
+    display: inline;
+    margin-left: 42px;
+    margin-top: 20px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.menu_li {
+    display: block;
+    width: 270px;
+    height: 43px;
+    background-color: #26d2fc;
+    font-family: Roboto;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 36px;
+    text-align: left;
+    text-decoration: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+.menu > li{
+    list-style: none;
+}
+.menu_li_text {
+    display: inline;
+    margin-left: 40px;
+    margin-top: 5px;
+    float: left;
+    text-transform: uppercase;
+}
+.menu_li:hover {
+    background-color: #333333;
+    color: #ffffff;
+    cursor: pointer;
+}
+.menu_li_4:hover .menu_hide_4 {
+    display: block;
+}
+/*Скрытое меню*/
+/*Скрытое меню рядом с 4м блоком*/
+/*.menu_hide_4{*/
+    /*display: none;*/
+    /*margin-top: 740px;*/
+    /*float: left;*/
+/*}*/
+/*.menu_li_hide_lvl1 {*/
+    /*display: block;*/
+    /*width: 270px;*/
+    /*height: 43px;*/
+    /*background-color: #26d2fc;*/
+    /*font-family: Roboto;*/
+    /*color: #000000;*/
+    /*font-size: 14px;*/
+    /*font-weight: 900;*/
+    /*line-height: 36px;*/
+    /*text-align: left;*/
+    /*text-decoration: none;*/
+/*}*/
+.menu_hide_4 {
+    display: none;
+    margin-left: 270px;
+    width: 155px;
+    height: 162px;
+    padding-left: 40px;
+    background-color: #75e3fe;
+}
+.menu_hide_4 > li {
+    font-family: Roboto;
+    color: #000000;
+    font-size: 14px;
+    font-weight: 900;
+    line-height: 36px;
+    margin-bottom: 5px;
+    text-align: left;
+    text-transform: uppercase;
+    text-decoration: none;
+    list-style: square;
+}
+.menu_hide_4 > li:hover:after{
+    content: "V";
 }
