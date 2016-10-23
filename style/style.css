@@ -5,6 +5,9 @@
 /*Контент*/
 .content {
     margin: 150px 150px 150px 150px;
+    background-color: #f8f8f8;
+    width: 1500px;
+    height: 3365px;
 }
 /*Шапка*/
 .header {
@@ -168,6 +171,72 @@
     text-decoration: none;
     list-style: square;
 }
-.menu_hide_4 > li:hover:after{
-    content: "V";
+.menu_hide_4 > li:hover:after { /*todo Изменить размеры контента, попробовать через бекграунд*/
+    content: url("../images/arrow.png");
+}
+/*Витрина*/
+.showcase {
+    margin-left: 465px;
+    margin-top: -15px;
+    background-color: #f8f8f8;
+    width: 870px;
+    height: 724px;
+}
+/*Новые продукты*/
+.new_products {
+    width: 870px;
+}
+.new_products_header {
+    font-family: Roboto;
+    color: #707070;
+    font-size: 22px;
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 28px;
+}
+.sc_img {
+    border: 10px solid #ffffff;
+    float: left;
+    width: 250px;
+    height: 235px;
+    margin-left: 25px;
+    margin-top: 31px;
+}
+/*Подвал*/
+/*Блок брендов*/
+.brand {
+    background-color: #ffffff;
+    width: 1170px;
+    height: 160px;
+    margin-left: 165px;
+}
+.instagram_feed {
+    background-color: #eaeaea;
+    width: 1170px;
+    height: 350px;
+    margin-left: 165px;
+}
+.facebook_block {
+    display: block;
+    background-color: #3b5997;
+    float: left;
+    color: #ffffff;
+    padding: 35px 173px 35px 172px;
+    margin-left: 165px;
+}
+.twitter_block {
+    display: block;
+    background-color: #3fccfd;
+    float: left;
+    color: #ffffff;
+    padding: 35px 158px 35px 158px;
+}
+.pinterest_block {
+    display: block;
+    background-color: #cb2027;
+    float: left;
+    color: #ffffff;
+    padding: 35px 166px 35px 166px;
 }
