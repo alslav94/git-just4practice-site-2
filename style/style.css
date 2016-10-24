@@ -169,10 +169,10 @@
     height: 724px;
 }
 /*Новые продукты*/
-.new_products {
+.new_products, .breadcrumbs_block {
     width: 900px;
 }
-.new_products_header {
+.new_products_header, .products_header {
     font-family: Roboto;
     color: #707070;
     font-size: 22px;
@@ -192,7 +192,7 @@
     margin-top: 30px;
     z-index: 0;
 }
-.sc_fitst_item {
+.sc_firtst_item {
     margin-left: 25px;
     margin-top: 31px;
 }
@@ -281,6 +281,34 @@
     height: 350px;
     background-color: #abeafa;
 }
+/*Хлебные крошки*/
+.breadcrumbs {
+    font-family: Roboto;
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
+    text-decoration: none;
+}
+.breadcrumbs_now {
+    font-family: Roboto;
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
+    background-color: #faef03;
+    text-decoration: none;
+}
+.quotes {
+    font-family: Roboto;
+    color: #989898;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    padding: 3px;
+}
 /*Витрина каталога*/
 .catalog_showcase {
     margin-left: 465px;
@@ -313,4 +341,116 @@
 }
 .catalog_menu > li{
     list-style: none;
+}
+/*Страница товара*/
+.product_place {
+    margin-left: 4px;
+    margin-top: 53px;
+}
+/*Картинка*/
+.product_img {
+    float: left;
+    height: 370px;
+}
+/*Название продукта*/
+.product_h {
+    margin-left: 284px;
+    margin-top: 5px;
+    font-family: Roboto;
+    color: #353535;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+/*Цена*/
+.product_cost {
+    margin-left: 283px;
+    margin-top: 53px;
+    font-family: Roboto;
+    color:  #111111;
+    font-size: 21.99px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: left;
+}
+/*Короткое описание*/
+.short-discription {
+    margin-left: 283px;
+    font-family: Roboto;
+    color: #707070;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    text-align: left;
+}
+.short-discription_h {
+    margin-left: 283px;
+    font-family: Roboto;
+    color: #353535;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    text-transform: uppercase;
+}
+/*Линии*/
+.product_line {
+    color: #e4e4e4;
+    width: 390px;
+    height: 1px;
+    margin: 27px 0 24px 75px;
+    width: 390px;
+    height: 1px;
+}
+/*Кнопка добавления в корзину*/
+.add_to_cart {
+    background-color:  #fb4d01;
+    width: 130px;
+    height: 48px;
+    margin-left: 410px;
+    margin-top: 20px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 15.99px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    transform: scaleY(1.0008);
+}
+/*Подробное описание*/
+.detail-discription {
+    margin-top: 236px;
+}
+.detail-discription_h {
+    background-color: #26d2fc;
+    width: 160px;
+    height: 35px;
+    font-family: Roboto;
+    color: #333333;
+    font-size: 10.91px;
+    font-weight: 400;
+    text-align: left;
+    transform: scaleY(1.1);
+}
+.detail-discription_p {
+    font-family: Roboto; /*Должен был быть Verdana, но это платный шрифт*/
+    color: #808080;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
+    border: 1px solid #d6d4d4;
+}
+/*"Вам так же может понравиться"*/
+.might_like {
+    margin: 100px 0 0 0;
+}
+.might_like_h {
+    font-family: Raleway;
+    font-style: italic;
+    color: #333333;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    margin: 0px 0 34px 5px;
 }
