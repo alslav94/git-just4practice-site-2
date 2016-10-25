@@ -128,6 +128,7 @@
     background-color: #333333;
     color: #ffffff;
     cursor: pointer;
+    -webkit-transition-duration: 0.3s;
 }
 .menu_li_4:hover .menu_hide_4 {
     display: block;
@@ -457,4 +458,13 @@
     font-weight: 700;
     text-align: left;
     margin: 0px 0 34px 5px;
+}
+/*Эффекты*/
+.effect:hover{
+    -webkit-transition-duration: 0.5s;
+    -webkit-box-shadow:0px 0px 30px #000000;
+}
+.fa_effect:hover {
+    -webkit-transition-duration: 0.4s;
+    color: #fff51f;
 }
