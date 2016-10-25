@@ -18,6 +18,7 @@
 .logo {
     margin-left: 234px;
     margin-top: 24px;
+    height: 111px;
     float: left;
 }
 /*Ссылки в соцсетях*/
@@ -133,33 +134,33 @@
 }
 /*Скрытое меню*/
 /*Скрытое меню рядом с 4м блоком*/
-.menu_hide_4 {
-    position: relative;
-    z-index: 1;
-    display: none;
-    margin-left: 270px;
-    width: 155px;
-    height: 162px;
-    padding-left: 40px;
-    background-color: #75e3fe;
-}
-.menu_hide_4 > li {
-    position: relative;
-    z-index: 1;
-    font-family: Roboto;
-    color: #000000;
-    font-size: 14px;
-    font-weight: 900;
-    line-height: 36px;
-    margin-bottom: 5px;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: none;
-    list-style: square;
-}
-.menu_hide_4 > li:hover:after { /*todo Изменить размеры контента, попробовать через бекграунд*/
-    content: url("../images/arrow.png");
-}
+/*.menu_hide_4 {*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    /*display: none;*/
+    /*margin-left: 270px;*/
+    /*width: 155px;*/
+    /*height: 162px;*/
+    /*padding-left: 40px;*/
+    /*background-color: #75e3fe;*/
+/*}*/
+/*.menu_hide_4 > li {*/
+    /*position: relative;*/
+    /*z-index: 1;*/
+    /*font-family: Roboto;*/
+    /*color: #000000;*/
+    /*font-size: 14px;*/
+    /*font-weight: 900;*/
+    /*line-height: 36px;*/
+    /*margin-bottom: 5px;*/
+    /*text-align: left;*/
+    /*text-transform: uppercase;*/
+    /*text-decoration: none;*/
+    /*list-style: square;*/
+/*}*/
+/*.menu_hide_4 > li:hover:after { !*todo Изменить размеры контента, попробовать через бекграунд*!*/
+    /*content: url("../images/arrow.png");*/
+/*}*/
 /*Витрина*/
 .showcase {
     margin-left: 465px;
@@ -341,6 +342,7 @@
 }
 .catalog_menu > li{
     list-style: none;
+    margin-left: -187px;
 }
 /*Страница товара*/
 .product_place {
@@ -374,8 +376,10 @@
     text-align: left;
 }
 /*Короткое описание*/
-.short-discription {
+.product_discription {
     margin-left: 283px;
+}
+.short-discription {
     font-family: Roboto;
     color: #707070;
     font-size: 12px;
@@ -384,7 +388,6 @@
     text-align: left;
 }
 .short-discription_h {
-    margin-left: 283px;
     font-family: Roboto;
     color: #353535;
     font-size: 12px;
@@ -440,6 +443,7 @@
     line-height: 15px;
     text-align: left;
     border: 1px solid #d6d4d4;
+    margin-right: 165px;
 }
 /*"Вам так же может понравиться"*/
 .might_like {
