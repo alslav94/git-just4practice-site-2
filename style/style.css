@@ -1,3 +1,7 @@
+/*@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto/Roboto-Black.ttf);
+}*/
 * {
     padding: 0px;
     margin: 0px;
@@ -14,6 +18,7 @@
     width: 1500px;
     height: 700px;
     background-color: #abeafa;
+    background-image: url("../images/shelf.jpg");
 }
 .logo {
     margin-left: 234px;
@@ -42,12 +47,26 @@
     clear: both;
 }
 .buynow_h {
-    font: 900 48px / 34px Raleway; /*TODO ? НЕДОСТАТОЧНО ЖИРНЫЙ*/
+    font: 900 48px / 34px 'Roboto', sans-serif; /*TODO ? НЕДОСТАТОЧНО ЖИРНЫЙ*/
     color: #fff51f;
 }
 .buynow_p {
-    font: 400 18px / 24px Raleway;
+    font: 400 18px / 24px 'Roboto', sans-serif;
     color: #fff51f;
+}
+.buynow_button {
+    background-color: #fff51f;
+    width: 124px;
+    height: 49px;
+}
+.buynow_button_text {
+    font-family: 'Russo One', sans-serif;
+    margin-left: 8px;
+    margin-top: 15px;
+    float: left;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
 /*Блок приветсвия*/
 .header_welcome {
@@ -61,15 +80,16 @@
 .welcome_h {
     position: relative;
     margin-left: 25px;
-    margin-top: 82px;
+    margin-top: 72px;
     text-transform: uppercase;
-    font: 700 30px / 30px Raleway;
+    font: 700 30px / 30px 'PT Serif Caption', serif;
 }
 .welcome_p {
     position: relative;
     margin-left: 22px;
+    margin-right: 10px;
     margin-top: 24px;
-    font: 700 18px / 14px Raleway;
+    font: 300 18px / 14px 'Pattaya', sans-serif;
     font-style: italic;
 }
 /*Меню*/
@@ -343,7 +363,6 @@
 }
 .catalog_menu > li{
     list-style: none;
-    margin-left: -187px;
 }
 /*Страница товара*/
 .product_place {
