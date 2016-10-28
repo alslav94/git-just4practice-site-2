@@ -9,7 +9,6 @@
 /*Низкое разрешение экрана*/
 .low_resolution {
     display: none;
-    background-color: #26d2fc;
 }
 /*Контент*/
 .content {
@@ -197,8 +196,8 @@
     margin-left: 465px;
     margin-top: -15px;
     background-color: #f8f8f8;
-    width: 58%;
-    height: 724px;
+    max-width: 58%;
+    min-height: 724px;
     padding-bottom: 125px;
 }
 /*Новые продукты*/
@@ -263,51 +262,174 @@
 /*Блок брендов*/
 .brand {
     background-color: #ffffff;
-    width: 1170px;
+    max-width: 1170px;
     height: 160px;
-    margin-left: 165px;
-    margin-top: 30px;
+    margin: 30px 30px 0 165px;
 }
 .instagram_feed {
+    display: flex;
     background-color: #eaeaea;
-    width: 1170px;
-    height: 350px;
-    margin-left: 165px;
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 30px 0 165px;
 }
 .facebook_block {
-    display: block;
     background-color: #3b5997;
-    float: left;
     color: #ffffff;
-    padding: 35px 173px 35px 172px;
-    margin-left: 165px;
+    padding: 28px 173px 28px 172px;
+    margin-top: 350px;
+    width: 100%;
+    height: 18.9%;
 }
 .twitter_block {
-    display: block;
     background-color: #3fccfd;
-    float: left;
     color: #ffffff;
-    padding: 35px 158px 35px 158px;
+    padding: 28px 158px 28px 158px;
+    margin-top: 350px;
+    width: 100%;
+    height: 18.9%;
 }
 .pinterest_block {
-    display: block;
     background-color: #cb2027;
-    float: left;
     color: #ffffff;
-    padding: 35px 166px 35px 166px;
+    padding: 28px 166px 28px 166px;
+    margin-top: 350px;
+    width: 100%;
+    height: 18.9%;
+}
+#fa-style {        /*Обращение по id для максимального приоритета*/
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 4em;
+    color: white;
 }
 .upper_footer {
     background-color:  #373737;
-    width: 1500px;
+    max-width: 1500px;
     height: 348px;
-    margin-top: 150px;
+}
+.upper_footer_content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 191px 0 192px;
+}
+.footer_item {
+    display: inline-block;
+    margin: 75px 10px 64px 10px;
+}
+.upper_footer_item_h {
+    font-family: Raleway;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-bottom: 28px;
+}
+.upper_footer_item_p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    text-decoration: none;
+}
+.footer_pre_last_item .upper_footer_item_p{
+    font-family: Roboto;
+    color: #f8f8f8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+}
+.footer_last_item {
+    width: 180px;
+}
+.footer_last_item .upper_footer_item_p {
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: left;
+}
+.pay_service_img img{
+    margin-top: 45px;
+}
+.footer_email_input {
+    background-color: #fff51f;
+    width: 170px;
+    height: 30px;
+    padding: 0 5px 0 5px;
+}
+.footer_submit_button {
+    background-color: #000000;
+    width: 71px;
+    height: 30px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: left;
+}
+.footer_phone {
+    margin-top: 14px;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+}
+.footer_email {
+    display: inline;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 23.4px;
+    text-align: left;
+}
+.footer_email_inside {
+    display: inline;
+    font-family: Roboto;
+    color: #faef03;
+    font-size: 12px; /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 36px; /* Приближение из-за подстановки шрифтов */
+    text-align: left;
 }
 .lower_footer {
     background-color: #333333;
-    width: 1500px;
+    max-width: 1500px;
     height: 47px;
-    margin-top: 301px;
+}
+.footer_copy_right_hide {
+    display: none;
+}
+.footer_copy_right {
     float: left;
+    margin-left: 171px;
+    margin-top: 15px;
+    font-family: Roboto;
+    color: #dad9d9;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: left;
+}
+.footer_social_line {
+    float: right;
+    margin-right: 186px;
+    margin-top: 15px;
+}
+.footer_social {
+    width: 14px;
+    height: 13px;
+    color: white;
+    margin-left: 15px;
 }
 /*Каталог*/
 /*Шапка каталога*/
@@ -518,10 +640,63 @@
         display: none;
     }
 }
+@media screen and (max-width: 1370px){
+    .facebook_block {
+        padding: 17px 96px 17px 96px;
+        height: 23.1%;
+    }
+    .twitter_block {
+        padding: 17px 79px 17px 79px;
+        height: 23.1%;
+    }
+    .pinterest_block {
+        padding: 17px 83px 17px 83px;
+        height: 23.1%;
+    }
+    #fa-style {
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 1238px) {
+    .upper_footer_content {
+        margin: 0 100px 0 100px;
+    }
+}
 @media screen and (max-width: 1060px) {
     .social {
         -webkit-transition-duration: 0.4s;
         margin-right: 10px;
+    }
+    .upper_footer_content {
+        margin: 0 50px 0 50px;
+    }
+}
+@media screen and (max-width: 995px) {
+    .footer_item {
+        margin: 50px 10px 64px 10px;
+    }
+    .footer_copy_right {
+        margin-left: 100px;
+    }
+    .footer_social_line {
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 918px) {
+    .footer_item {
+        margin: 30px 10px 64px 10px;
+    }
+}
+@media screen and (max-width: 853px) {
+    .instagram_feed, .brand, .upper_footer {
+        display: none;
+    }
+    .footer_copy_right {
+        margin-left: 50px;
+    }
+    .footer_social_line {
+        margin-right: 50px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -533,11 +708,28 @@
         -webkit-transition-duration: 0.4s;
         width: 270px;
     }
+    .footer_copy_right {
+        display: none;
+    }
+    .footer_copy_right_hide {
+        display: inline;
+    }
 }
 @media screen and (max-width: 465px) {
     .menu, .showcase {
         -webkit-transition-duration: 0.4s;
         margin-left: 30px;
+    }
+    .footer_copy_right {
+        margin-left: 5px;
+    }
+    .footer_social_line {
+        margin-right: 5px;
+    }
+}
+@media screen and (max-width: 345px) {
+    .footer_social_line{
+        display: none;
     }
 }
 @media screen and (max-width: 332px) {
